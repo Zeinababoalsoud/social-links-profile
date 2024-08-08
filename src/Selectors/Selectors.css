@@ -1,0 +1,21 @@
+#divBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:85%;
+    height:20%;
+   
+}
+#divBtn button{
+    width:100%;
+    height:60%;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 25%);
+    color:white;
+    font-weight: 700;
+}
+#divBtn button:hover{
+    cursor:pointer;
+    background-color: hsl(75, 94%, 57%);
+}
